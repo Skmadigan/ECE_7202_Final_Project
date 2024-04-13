@@ -22,5 +22,5 @@ If the map is unknow, the robot needs to explore the enviroment and find the opt
 
 ### Single Agent (SARSA/Q-learning, n-steps SASA/Q-learing)
 ### Mulitple Agents (simultaneously Q-learining)
-
+![alt text](figures_and_results/Q_learing_multi_agents.gif)
 ## Real world application
