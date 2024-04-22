@@ -29,5 +29,5 @@ If the map is unknow, the robot needs to explore the enviroment and find the opt
 Preprocess the image
 ![alt text](figures_and_results/Real_map_preprocessing.PNG)
 learned path
-![alt text](figures_and_results/path_plan_realistic_world.gif)
+![alt text](figures_and_results/realistic_map_dyn.gif)
 
