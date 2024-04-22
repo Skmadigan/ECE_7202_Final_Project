@@ -1,5 +1,5 @@
 # ECE_7202_Final_Project
-## Path planning using value iteration
+## 1. Path planning using value iteration
 If both the map and model are know, we use value iteration to find the optimal value functions V* and the optimal path is derived using a greedy policy.
 
 ### Model
@@ -17,11 +17,17 @@ Robot is aware of the nearby obstacles, but doesn't know where they will move
 ![alt text](figures_and_results/path_planning_dynamic_env.PNG)
 ![alt text](figures_and_results/value_iteration_64x64_100_dynamic_obs.gif)
 
-## Path planning using TD method
+## 2.Path planning using TD method
 If the map is unknow, the robot needs to explore the enviroment and find the optimal path
 
 ### Single Agent (SARSA/Q-learning, n-steps SASA/Q-learing)
+![alt text](figures_and_results/Q_learning_single_agent.PNG)
 ### Mulitple Agents (simultaneously Q-learining)
-![alt text](figures_and_results/Q_learing_multi_agents.gif)
+![alt text](figures_and_results/multi-agent.gif)![alt text](figures_and_results/Q_learing_multi_agents.gif)
 
-## Real world application
+## 3. Real application
+Preprocess the image
+![alt text](figures_and_results/Real_map_preprocessing.PNG)
+learned path
+![alt text](figures_and_results/path_plan_realistic_world.gif)
+
